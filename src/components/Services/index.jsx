@@ -15,12 +15,15 @@ export const Services = () => {
 
   return (
     <Container>
-      <div>
-        <img src={img} alt='img' className={styles.img} />
+      <div className={styles.wrapper}>
+        <div className={styles.imgWrapper}>
+          <img src={img} alt='img' className={styles.img} />
+        </div>
         <ol className={styles.list}>
           {list.map(({ id, item }) => (
             <li key={id} className={styles.listItem}>
-              {item} <span className={styles.num}>0{id}</span>
+              <span className={styles.listItemText}>{item}</span>
+              <span className={styles.num}>0{id}</span>
             </li>
           ))}
         </ol>

@@ -3,6 +3,8 @@ import { Navigation } from "./components/Navigation";
 import { Header } from "./components/Header";
 import { AboutUs } from "./components/AboutUs";
 import { Services } from "./components/Services";
+import { ServiceCarousel } from "./components/ServiceCarousel";
+import { PortfolioCarousel } from "./components/PortfolioCarousel";
 
 function App() {
   return (
@@ -10,8 +12,9 @@ function App() {
       <Navigation />
       <Header />
       <AboutUs />
-      <div style={{ height: '500px' }}>Carousel</div>
+      <ServiceCarousel />
       <Services />
+      <PortfolioCarousel />
     </div>
   );
 }
