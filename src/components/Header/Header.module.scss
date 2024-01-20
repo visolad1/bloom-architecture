@@ -25,3 +25,16 @@
     width: 250px;
     height: 250px;
 }
+
+.btnWrapper{
+    color: #E3E7F2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.btnIcon{
+    align-self: end;
+}

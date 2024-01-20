@@ -1,0 +1,26 @@
+.listItem{
+    width: 100%;
+    height: 192px;
+    color: #E3E7F2;
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 1px solid #E3E7F2;
+    padding: 46px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.num{
+    font-weight: 900;
+    color: #E3E7F2;
+    opacity: 0.3;
+}
+
+
+.listItem:hover{
+    background-color: #E3E7F2;
+    transition: background-color 1s linear;
+    color: black;
+}

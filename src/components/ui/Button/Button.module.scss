@@ -3,5 +3,9 @@
     height: 100%;
     border: 3px solid #fff;
     background-color: #141413;
-    padding: 14px;
+}
+
+.btn:hover{
+    border-radius: 48% 0% 45% 51% / 48% 0% 51% 49%;
+    transition: border-radius 0.2s ease-out;
 }

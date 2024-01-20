@@ -2,6 +2,7 @@ import React from "react";
 import { Navigation } from "./components/Navigation";
 import { Header } from "./components/Header";
 import { AboutUs } from "./components/AboutUs";
+import { Services } from "./components/Services";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Navigation />
       <Header />
       <AboutUs />
+      <div style={{ height: '500px' }}>Carousel</div>
+      <Services />
     </div>
   );
 }

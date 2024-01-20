@@ -6,7 +6,9 @@ export const AboutUs = () => {
   return (
     <Container>
       <div className={styles.wrapper}>
-        <h3 className={styles.subtitle}>О НАС</h3>
+        <h3 className={styles.subtitle} id='about-us'>
+          О НАС
+        </h3>
         <p className={styles.textWhite}>
           Архитектура, задающая тон:
           <br /> наше агентство специализируется на создании инновационных и устойчивых зданий,{' '}
