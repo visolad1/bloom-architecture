@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './CallBackModal.module.scss';
 import { Modal } from '../ui/Modal';
 import closeIcon from '../../assets/imgs/close-btn-icon.svg';
+import { CallBackBtn } from '../ui/CallBackBtn';
 
 export const CallBackModal = ({ setModalVisible }) => {
   return (
@@ -20,7 +21,11 @@ export const CallBackModal = ({ setModalVisible }) => {
         <div className={styles.footer}>
           <p className={styles.footerText}>Оставьте заявку и мы свяжемся с вами</p>
           <div className={styles.btn}>
-            
+            <CallBackBtn>
+              <p className={styles.btnText}>
+                Заказать <br /> проект
+              </p>
+            </CallBackBtn>
           </div>
         </div>
       </div>
