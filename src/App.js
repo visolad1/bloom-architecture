@@ -5,6 +5,7 @@ import { AboutUs } from "./components/AboutUs";
 import { Services } from "./components/Services";
 import { ServiceCarousel } from "./components/ServiceCarousel";
 import { PortfolioCarousel } from "./components/PortfolioCarousel";
+import { CustomCarousel } from "./components/Carousel";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navigation />
       <Header />
       <AboutUs />
-      <ServiceCarousel />
+      <ServiceCarousel/>
       <Services />
       <PortfolioCarousel />
     </div>

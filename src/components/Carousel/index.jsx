@@ -1,26 +1,28 @@
 import React from 'react';
-import styles from './Carouse.module.scss';
-import Slider from 'react-slick';
+import styles from './Carousel.module.scss';
+import Slider from 'react-slick'
 
-export const Carousel = ({ text }) => {
+export const CustomCarousel = ({ text, countOfWords }) => {
   const settings = {
-    dots: false,
     arrows: false,
-    infinite: true,
     slidesToShow: 2,
+    infinity: true,
     slidesToScroll: 1,
+    pauseOnHover: false,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
-    cssEase: 'linear',
-    pauseOnHover: false,
-    adaptiveHeight: true,
+    cssEase: 'linear'
   };
+  const arr = []
+  for (let i = 0; i < countOfWords; i++){
+    arr.push(1)
+  }
+  console.log(arr)
   return (
     <div className={styles.wrapper}>
       <Slider {...settings}>
-        <p className={styles.item}>{text}</p>
-        <p className={styles.item}>{text}</p>
+          {arr.map(_ => <div className={styles.item}>{text}</div>)}
       </Slider>
     </div>
   );
