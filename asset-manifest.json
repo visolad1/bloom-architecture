@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bloom-architecture/static/css/main.dd836cc9.css",
-    "main.js": "/bloom-architecture/static/js/main.3fae71ca.js",
+    "main.css": "/bloom-architecture/static/css/main.8ece2ab0.css",
+    "main.js": "/bloom-architecture/static/js/main.f69106f5.js",
     "static/media/service-image.png": "/bloom-architecture/static/media/service-image.9ed2a2ddbcb5df54c916.png",
     "static/media/plan-drawing.png": "/bloom-architecture/static/media/plan-drawing.e8a55056e9ddad5e8389.png",
     "static/media/logo.svg": "/bloom-architecture/static/media/logo.555604b53e14435780da1dc9c1d08e90.svg",
     "static/media/logo-bc-image.svg": "/bloom-architecture/static/media/logo-bc-image.1d9e8408e5467314cd4c.svg",
     "index.html": "/bloom-architecture/index.html",
     "static/media/close-btn-icon.svg": "/bloom-architecture/static/media/close-btn-icon.4c5a97bb49261ae4a3baaceaf6f90644.svg",
-    "main.dd836cc9.css.map": "/bloom-architecture/static/css/main.dd836cc9.css.map",
-    "main.3fae71ca.js.map": "/bloom-architecture/static/js/main.3fae71ca.js.map"
+    "main.8ece2ab0.css.map": "/bloom-architecture/static/css/main.8ece2ab0.css.map",
+    "main.f69106f5.js.map": "/bloom-architecture/static/js/main.f69106f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd836cc9.css",
-    "static/js/main.3fae71ca.js"
+    "static/css/main.8ece2ab0.css",
+    "static/js/main.f69106f5.js"
   ]
 }
