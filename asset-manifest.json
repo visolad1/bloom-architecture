@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bloom-architecture/static/css/main.f941c867.css",
+    "main.css": "/bloom-architecture/static/css/main.c6cce333.css",
     "main.js": "/bloom-architecture/static/js/main.6b7130bb.js",
     "static/media/projects-img2.png": "/bloom-architecture/static/media/projects-img2.72f06040e9c6a7b3d421.png",
     "static/media/service-image.png": "/bloom-architecture/static/media/service-image.9ed2a2ddbcb5df54c916.png",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/bloom-architecture/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bloom-architecture/index.html",
     "static/media/close-btn-icon.svg": "/bloom-architecture/static/media/close-btn-icon.4c5a97bb49261ae4a3baaceaf6f90644.svg",
-    "main.f941c867.css.map": "/bloom-architecture/static/css/main.f941c867.css.map",
+    "main.c6cce333.css.map": "/bloom-architecture/static/css/main.c6cce333.css.map",
     "main.6b7130bb.js.map": "/bloom-architecture/static/js/main.6b7130bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f941c867.css",
+    "static/css/main.c6cce333.css",
     "static/js/main.6b7130bb.js"
   ]
 }
