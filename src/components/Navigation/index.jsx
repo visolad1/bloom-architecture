@@ -14,7 +14,7 @@ export const Navigation = () => {
   const languages = ['EN', 'RU', 'UZ'];
 
   const [activeLink, setActiveLink] = React.useState(1);
-  const [activeLanguage, setActiveLanguage] = React.useState('RU');
+  const [activeLanguage, setActiveLanguage] = React.useState(1);
 
   return (
     <nav className={styles.nav}>
@@ -35,13 +35,11 @@ export const Navigation = () => {
         </ol>
 
         <ol className={styles.languageList}>
-          {languages.map((item) => (
+          {languages.map((item, i) => (
             <li
-              className={`${styles.languageListItem} ${
-                activeLanguage === item ? styles.activeLanguage : ''
-              }`}
+              className={`${styles.languageListItem} ${activeLanguage === i ? styles.activeLanguage : ''}`}
               key={item}
-              onClick={() => setActiveLanguage(item)}
+              onClick={() => setActiveLanguage(i)}
             >
               <a href='#'>{item}</a>
             </li>

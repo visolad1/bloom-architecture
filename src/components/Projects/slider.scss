@@ -1,0 +1,27 @@
+.sliderText{
+    display: none;
+}
+
+.slick-active{
+    .sliderText{
+        display: block;
+    }
+}
+
+.projects-wrapper .slide{
+    width: 480px !important;
+    margin: 0 18% !important;
+}
+
+.btnNext, .btnPrev{
+    position: absolute;
+    bottom: -20%;
+}
+
+.btnNext{
+    right: 45%;
+}
+
+.btnPrev{
+    left: 45%;
+}

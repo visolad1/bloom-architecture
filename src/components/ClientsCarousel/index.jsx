@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ClientsCarousel.module.scss';
-import { CustomCarousel } from '../Carousel';
+import { CustomCarousel } from '../ui/Carousel';
 
 export const ClientsCarousel = () => {
   return (
